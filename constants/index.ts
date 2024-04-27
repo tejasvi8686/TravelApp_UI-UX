@@ -69,7 +69,7 @@ export const FOOTER_LINKS = [
 export const FOOTER_CONTACT_INFO = {
   title: 'Contact Us',
   links: [
-    { label: 'Admin Officer', value: '+91-6387247869' },
+    { label: 'Admin Officer', value: '+91-*********' },
     { label: 'Email Officer', value: 'tejasviraj8686@gmail.com' },
   ],
 };

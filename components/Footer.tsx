@@ -57,13 +57,18 @@ const Footer = () => {
         </div>
 
         <div className="border bg-gray-20" />
-        <p className="regular-14 w-full text-center text-gray-30">
-          2024 Hilink | All rights reserved
-        </p>
-        <p className="regular-14 w-full text-center text-gray-30">
-          ❤️ Crafted with passion by
-          <Link href="https://tejasviraj.vercel.app/"> Tejasvi Raj</Link>
-        </p>
+        <div className="leading-6">
+          <p className="regular-14 w-full text-center text-gray-30">
+            2024 Hilink | All rights reserved
+          </p>
+          <p className="regular-14 w-full text-center text-gray-30">
+            Crafted with passion by
+            <Link className="font-bold" href="https://tejasviraj.vercel.app/">
+              {" "}
+              Tejasvi Raj
+            </Link>
+          </p>
+        </div>
       </div>
     </footer>
   );
